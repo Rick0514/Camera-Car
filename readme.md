@@ -10,11 +10,11 @@
 
 #### app效果
 
-<video id="video" controls=""src="https://github.com/Rick0514/Camera-Car/blob/master/adacam.mp4" preload="none">
+> 见**adacam.mp4**
 
 
 #### 搭载在硬件上效果
-<video id="video" controls=""src="https://github.com/Rick0514/Camera-Car/blob/master/car.mp4" preload="none">
+> 见**car.mp4**
 
 #### 在此感谢以下开源库的支持
 
