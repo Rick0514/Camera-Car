@@ -4,17 +4,17 @@
 
 #### 应用
 
-<img src="./app.jpg" style="zoom:50%;" />
+<img src="./app.jpg" style="zoom:30%;" />
 
 
 
 #### app效果
 
-<video id="video" controls=""src="./adacam.mp4" preload="none">
+<video id="video" controls=""src="https://github.com/Rick0514/Camera-Car/blob/master/adacam.mp4" preload="none">
 
 
 #### 搭载在硬件上效果
-<video id="video" controls=""src="./car.mp4" preload="none">
+<video id="video" controls=""src="https://github.com/Rick0514/Camera-Car/blob/master/car.mp4" preload="none">
 
 #### 在此感谢以下开源库的支持
 
