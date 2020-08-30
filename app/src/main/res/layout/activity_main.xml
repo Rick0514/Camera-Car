@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_toolbar_height"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@android:color/white"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/main_toolbar_textsize"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:layout_marginLeft="@dimen/main_toolbar_textmarginl" />
+
+        <ImageView
+            android:id="@+id/blue_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_blue_settings"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/main_toolbar_icmarginr"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGrey"
+        android:orientation="vertical"
+        android:padding="@dimen/main_settings_pad">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/main_settings_textmarginbottom"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/scan_setting"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/main_settings_textsize" />
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_name"
+            android:paddingLeft="@dimen/main_settings_editpad"
+            android:paddingRight="@dimen/main_settings_editpad"
+            android:textSize="@dimen/main_settings_textsize" />
+
+        <EditText
+            android:id="@+id/et_mac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_mac"
+            android:paddingLeft="@dimen/main_settings_editpad"
+            android:paddingRight="@dimen/main_settings_editpad"
+            android:textSize="@dimen/main_settings_textsize" />
+
+        <EditText
+            android:id="@+id/et_uuid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_uuid"
+            android:paddingLeft="@dimen/main_settings_editpad"
+            android:paddingRight="@dimen/main_settings_editpad"
+            android:textSize="@dimen/main_settings_textsize" />
+
+        <Switch
+            android:id="@+id/sw_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/main_settings_editpad"
+            android:paddingRight="@dimen/main_settings_editpad"
+            android:text="AutoConnect ?"
+            android:textSize="@dimen/main_settings_textsize"
+            />
+
+        <Button
+            android:id="@+id/up"
+            android:layout_width="@dimen/main_settings_upsize"
+            android:layout_height="@dimen/main_settings_upsize"
+            android:layout_gravity="right"
+            android:background="@drawable/ic_up" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="@dimen/scan_btn_size"
+            android:layout_height="@dimen/scan_btn_size"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/scan_btn_marginl"
+            android:background="@drawable/ic_scan"
+            />
+
+
+        <ImageView
+            android:id="@+id/img_loading"
+            android:layout_width="@dimen/main_icloading_size"
+            android:layout_height="@dimen/main_icloading_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/main_icloading_marginr"
+            android:src="@mipmap/ic_loading"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/list_margintop"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:paddingEnd="@dimen/list_pad"
+        android:paddingStart="@dimen/list_pad"
+        android:scrollbars="none" />
+
+</LinearLayout>
+

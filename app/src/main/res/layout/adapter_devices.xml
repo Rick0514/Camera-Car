@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ad_list_height">
+
+        <ImageView
+            android:id="@+id/img_blue"
+            android:layout_width="@dimen/blue_img_width"
+            android:layout_height="@dimen/blue_img_height"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_blue_remote" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/showtext_linear_marginl"
+            android:layout_toRightOf="@id/img_blue"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/devicename_marginb"
+                android:textSize="@dimen/devicename_textsize" />
+
+            <TextView
+                android:id="@+id/txt_mac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/devicename_marginb"
+                android:textSize="@dimen/devicemac_textsize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_idle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txt_rssi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/devicemac_textsize" />
+
+            <ImageView
+                android:layout_width="@dimen/rssi_img_size"
+                android:layout_height="@dimen/rssi_img_size"
+                android:layout_marginLeft="@dimen/rssi_img_marginl"
+                android:src="@mipmap/ic_rssi" />
+
+            <Button
+                android:id="@+id/btn_connect"
+                android:layout_width="@dimen/con_btn_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rssi_img_marginl"
+                android:text="@string/connect"
+                android:textSize="@dimen/devicemac_textsize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_connected"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/connected"
+                android:textSize="@dimen/devicename_textsize" />
+
+            <Button
+                android:id="@+id/btn_disconnect"
+                android:layout_width="@dimen/con_btn_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rssi_img_marginl"
+                android:text="@string/disconnect"
+                android:textSize="@dimen/devicename_textsize" />
+
+            <Button
+                android:id="@+id/btn_detail"
+                android:layout_width="@dimen/con_btn_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/rssi_img_marginl"
+                android:background="@drawable/ic_cam"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

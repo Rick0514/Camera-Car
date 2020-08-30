@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--ToolBar的主题, 使按键变白色-->
+    <style name="Toolbar_theme">
+        <item name="colorControlNormal">@color/colorWhite</item>
+    </style>
+
+    <!--Toolbar的题目文字样式-->
+    <style name="Toolbar_Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/toolbar_textsize</item>
+    </style>
+
+    <style name="Face_View" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/toolbar_textsize</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Ada-Camera</string>
+
+    <!--帮助页面-->
+    <string name="help">helps</string>
+    
+    <!--权限申请-->
+    <string name="reason_for_bluetooth">蓝牙操作需要蓝牙和定位权限</string>
+    <string name="yes">确定</string>
+    <string name="never">坚决不申请</string>
+    <string name="application_exit">权限不足，应用自动退出</string>
+    <string name="warning">警告</string>
+    <string name="reason_for_camera">相机操作需要相机和内存读写权限</string>
+
+    <!--main_activity-->
+        <!--settings-->
+        <string name="scan_setting">在下面你可以配置需要扫描的设备的条件，可以为空</string>
+        <string name="setting_name">输入蓝牙设备广播名，多个之间以英文逗号隔开</string>
+        <string name="setting_mac">输入蓝牙设备mac</string>
+        <string name="setting_uuid">输入蓝牙设备UUID，多个之间以英文逗号隔开</string>
+        <string name="connect_fail">连接失败</string>
+        <string name="active_disconnected">断开了</string>
+        <string name="disconnected">连接断开</string>
+
+        <!--adapter_devices-->
+        <string name="connect">连接</string>
+        <string name="connected">已连接</string>
+        <string name="disconnect">断开连接</string>
+
+    <!--face_view-->
+    <string name="face_view">Face-View</string>
+
+
+
+
+</resources>

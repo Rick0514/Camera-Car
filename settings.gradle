@@ -1,0 +1,4 @@
+rootProject.name='Ada_Camera'
+include ':app'
+include ':richtext'
+include ':FastBleLib'

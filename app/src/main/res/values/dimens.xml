@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--help_activity页面-->
+    <dimen name="toolbar_textsize">30sp</dimen>
+    <dimen name="lr_margin">20dp</dimen>
+
+    <!--main_activity页面-->
+    <dimen name="main_toolbar_height">55dp</dimen>
+    <dimen name="main_toolbar_textsize">30dp</dimen>
+    <dimen name="main_toolbar_textmarginl">10dp</dimen>
+    <dimen name="main_toolbar_icmarginr">10dp</dimen>
+
+    <dimen name="main_settings_pad">20dp</dimen>
+    <dimen name="main_settings_textmarginbottom">10dp</dimen>
+    <dimen name="main_settings_textsize">12sp</dimen>
+    <dimen name="main_settings_editpad">5dp</dimen>
+    <dimen name="main_settings_upsize">30dp</dimen>
+
+    <dimen name="scan_btn_size">60dp</dimen>
+    <dimen name="scan_btn_marginl">20dp</dimen>
+
+
+    <dimen name="main_icloading_size">30dp</dimen>
+    <dimen name="main_icloading_marginr">10dp</dimen>
+
+    <dimen name="list_margintop">10dp</dimen>
+    <dimen name="list_pad">5dp</dimen>
+
+    <!--adapter_devices-->
+    <dimen name="ad_list_height">55dp</dimen>
+
+    <dimen name="blue_img_width">15dp</dimen>
+    <dimen name="blue_img_height">20dp</dimen>
+
+    <dimen name="showtext_linear_marginl">10dp</dimen>
+    <dimen name="devicename_textsize">14sp</dimen>
+    <dimen name="devicename_marginb">2dp</dimen>
+    <dimen name="devicemac_textsize">12sp</dimen>
+
+    <dimen name="rssi_img_size">18dp</dimen>
+    <dimen name="rssi_img_marginl">5dp</dimen>
+
+    <dimen name="con_btn_width">50dp</dimen>
+
+    <!--operation_activity-->
+    <dimen name="op_textview_height">50dp</dimen>
+    <dimen name="op_textsize">30sp</dimen>
+
+
+    <!--face_view-->
+    <dimen name="fi_textsize">30sp</dimen>
+</resources>
